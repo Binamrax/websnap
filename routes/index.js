@@ -33,6 +33,7 @@ router.get('/desktop', async(req, res) => {
     res.send(null);
   }
 });
+
 /**
  * taking snap of website on mobile.
  */
