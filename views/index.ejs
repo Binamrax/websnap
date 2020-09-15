@@ -279,6 +279,8 @@
                 mobile.classList.remove('hide');
                 loadingmob.classList.add('hide');
               }).catch(e => { loadingmob.classList.add('hide'); });
+            }else{
+              bug.innerText = "Invalid Url or dosen't exist";
             }
           }).catch(e => { })
         } else {
